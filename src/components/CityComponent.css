@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-city-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #2ce1ff 100%);
+    margin: 50px 0px;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 2px 1px 8px #2ce1ff;
+}
+.app-city-container h1{
+    margin-top: 20px;
+}
+
+.app-city-container img {
+    width: 200px;
+    height: 300px;
+}
+.app-city-container form {
+   margin: 20px ;
+   width: 200px;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.app-city-container input{
+   margin-top: 20px;
+   width: 200px;
+   font-size: 25px;
+   font-weight: bold;
+   border-radius: 20px;
+ text-align: center;
+}
+.app-city-container button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: black; 
+    font-size: 20px; 
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.app-city-container button:hover{
+    background-color:#2ce1ff ;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}

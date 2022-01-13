@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  background-color: #52ACFF;
+  background-image: linear-gradient(180deg, #52ACFF 25%, #2ce1ff 100%);
+}
+ 

@@ -1,0 +1,94 @@
+.app-weather{
+    background-color: white;
+    margin: 20px 0px;
+    width: 500px;
+    height: 550px;
+    box-shadow: 2px 2px 8px rgb(20, 200, 231);
+    border-radius: 25px;
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #2ce1ff 100%);
+
+}
+.app-weather h1{
+    color: rgb(7, 32, 107);
+    padding: 10px 10px;
+}
+
+.app-weather-temp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+.app-weather-temp span{
+    font-size: 30px;
+    color: rgb(2, 3, 43);
+    font-weight: bolder;
+}
+
+.app-weather-temp p{
+    font-size: 25px;
+    color:rgb(4, 4, 49);
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+}
+
+.app-weather-temp img{
+    width: 100px;
+}
+.app-weather-location{
+color: skyblue;
+}
+.app-weather-details{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: start;
+    color: black;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.app-weather-details{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.app-weather-info h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.app-weather-infocontainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.infocontainer{
+    display: flex;
+    margin: 20px 20px;
+    flex-direction:row;
+    align-items: center;
+}
+
+.infoicon{
+   width: 50px;
+   height: 50px;
+}
+
+.infolable{
+    display: flex;
+    flex-direction: column;
+    margin: 14px;
+    font-size: 18px;
+    text-transform: uppercase;
+} 
